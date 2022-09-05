@@ -1,0 +1,130 @@
+/* author: Nobel Nsonde
+   theme: Food Order Website admin 
+    version: 1.0
+*/
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text_center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+
+}
+
+/* css 4 tables */
+
+.tbl_full{
+    
+    width: 100%;
+}
+.tbl_full tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.tbl_full tr td{
+    padding: 1%;
+}
+.tbl2{
+    width: 30%;
+}
+/* css for button*/
+.btn{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #3742fa;
+}
+.btn_second{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn_second:hover{
+    background-color: #2ed573;
+}
+.btn_third{
+    background-color: #ff7f50;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn_third:hover{
+    background-color: #ff6348;
+}
+/*css 4 color of displaying error and success msg*/
+.success{
+    color: blue;
+}
+.error{
+    color: #ff4757;
+}
+/*css 4 menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+    
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: tomato;
+}
+.menu ul li a:hover{
+    color: #ff6b81;
+}
+/* css for content */
+
+.content{
+  
+   background-color: #f1f2f6;
+   padding: 3%;
+   
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    position: center;
+}
+
+/* css for footer */
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+/* css for login */
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
